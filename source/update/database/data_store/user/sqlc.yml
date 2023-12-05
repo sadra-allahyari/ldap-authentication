@@ -1,0 +1,8 @@
+version: "2"
+sql:
+  - schema: "schema"
+    queries: "query"
+    engine: "mysql"
+    gen:
+      go:
+        out: "userDB"
