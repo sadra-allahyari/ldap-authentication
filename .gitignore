@@ -23,3 +23,7 @@ go.work
 
 # Environment config
 config/config.yml
+
+# Environment variables
+.env
+test/.env
