@@ -27,3 +27,6 @@ config/config.yml
 # Environment variables
 .env
 test/.env
+
+# Database updater
+shell/update.sh
