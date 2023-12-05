@@ -1,0 +1,27 @@
+### This is an example config file you must create your own config.yml in order to work.
+
+server:
+  port: 8080
+
+ldap:
+  BindUsername: "user@example.com"
+  BindPassword: "password"
+  FQDN: "192.168.1.1"
+  BaseDN: "cn=users,dc=example,dc=com"
+  protocol: "ldap"
+  port: 389
+
+database:
+  engine: "mysql"
+  address: "127.0.0.1:3306"
+  user: "user"
+  password: "password"
+  name: "dbname"
+
+router:
+  allowedOrigins: '"https://*", "http://*"'
+  allowedMethods: '"GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"'
+  allowedHeaders: '"*"'
+  exposedHeaders: '"Link"'
+  allowCredentials: false
+  maxAge: 300
