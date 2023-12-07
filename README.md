@@ -5,6 +5,7 @@ This is an LDAP authentication module designed to authenticate users using LDAP.
 ## Pre-required Services
 
 - MySQL Server
+- goose: [Installation Guide](https://github.com/pressly/goose#install)
 
 ## Getting Started
 
@@ -43,7 +44,7 @@ We welcome contributions to enhance the LDAP authentication module.
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
-3. Make your changes and ensure tests pass.
+3. Make your changes and ensure the tests pass.
 4. Submit a pull request with a clear description of your changes.
 
 Thank you for contributing!
